@@ -1,7 +1,13 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-    cout << "Hello World!";
-    return 0;
+     int x = 2;
+     string y = "String\n";
+     cout << y;
+     cout << x;
+     
+
+
 }
