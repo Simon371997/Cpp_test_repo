@@ -3,11 +3,13 @@
 using namespace std;
 
 int main() {
-     int x = 2;
-     string y = "String\n";
-     cout << y;
+     int n, x;
+     cin >> n;
+     cout << n <<endl;
+     cin.clear();
+     cin.ignore(1000, '\n');
+     cin >> x;
      cout << x;
-     
-
+  
 
 }
